@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chromium Bug 481922</title>
+    <style>
+      iframe {
+        clear: both;
+        float: left;
+        overflow: hidden;
+        height: 100%;
+        width: 100%; 
+      }
+    </style>
+  </head>
+  <body>
+    <iframe name="content" src="iframe.html" onload="this.style.height='619px'"></iframe>
+  </body>
+</html>
