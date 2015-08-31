@@ -9,11 +9,13 @@ Use network throttling to achieve this with Chrome Dev Tools.
 Screenshot:
 ![Chrome network throttling screenshot](chromeNetworkThrottling.png)
 
-Assuming server on port 8000 visit: http://localhost:8000/
+Hosted example at https://talee.github.io/iframe-not-rendering/
 
-Expected: iframe with text inside (screenshot below)
+## Expected
+iframe with text inside (screenshot below)
 ![Expected result screenshot](expected.png)
 
-Actual: iframe not rendered (shows as white)
+## Actual
+iframe not rendered (shows as white)
 
 Forcing repaint (in this case resizing browser window width) shows the text.
